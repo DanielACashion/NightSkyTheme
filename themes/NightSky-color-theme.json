@@ -3,11 +3,22 @@
 	"colors": {
 		"editor.background": "#121012",
 		"editor.foreground": "#eeffff",
-		"activityBar.activeBorder": "#e3c638",
+		"activityBar.background": "#121012",
+		"activityBar.foreground": "#eeffff",
+		"activityBar.activeBorder": "#f0ebd7",
 		"activityBarBadge.background": "#e3c638",
-		"activityBar.foreground": "#bbbbbb",
-		"activityErrorBadge.foreground": "#FFFFFF",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"activityBarBadge.foreground": "#121012",
+		"activityErrorBadge.foreground": "#e3c638",
+		"sideBar.background": "#121012",
+		"sideBar.foreground": "#eeffff",
+		"sideBarTitle.foreground": "#eeffff",
+		"sideBarSectionHeader.background": "#121012",
+		"tab.activeBackground": "#121012",
+		"tab.inactiveBackground": "#121012",
+		"tab.unfocusedActiveBackground": "#121012",
+		"tab.unfocusedInactiveBackground": "#121012",
+		"tab.border": "#f0ebd7",
+		"editorGroupHeader.tabsBackground": "#121012"
 	},
 	"tokenColors": [
 		{
@@ -149,7 +160,6 @@
 				"constant.other.key",
 				"constant.other.symbol",
 				"variable.parameter",
-				
 			],
 			"settings": {
 				"foreground": "#93bfe7"
