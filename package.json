@@ -1,0 +1,21 @@
+{
+  "name": "nightsky",
+  "displayName": "NightSky",
+  "description": "a clear night sky",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NightSky",
+        "uiTheme": "vs-dark",
+        "path": "./themes/NightSky-color-theme.json"
+      }
+    ]
+  }
+}
