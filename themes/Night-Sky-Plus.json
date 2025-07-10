@@ -151,10 +151,36 @@
 				"support.function",
 				"support.class",
 				"entity.name.namespace",
+				"meta.tag.structure.select.end.html",
+				"meta.tag.structure.select.begin.html",
+				"punctuation.definition.tag",
 			],
 			"settings": {
 				"foreground": "#C1DDF6"
 			}
+		},
+		{
+			"name": "Slants",
+			"scope": [
+				"meta.tag.structure.select.end.html",
+				"meta.tag.structure.select.begin.html",
+				"entity.name.tag",
+			],
+			"settings": {
+				"fontStyle": "italic",
+			}
+		},
+		{ 
+			"name": "STRIKE!",
+			"scope": [
+				"meta.tag.structure.select.end.html",
+				"meta.tag.structure.select.begin.html",
+				"punctuation.definition.tag",
+			],
+			"settings": {
+				"fontStyle": "strikethrough",
+			}
+			
 		},
 		{
 			"name": "White Clouds",
@@ -339,13 +365,6 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"foreground": "#99ad6a"
-			}
-		},
-		{
-			"name": "brackets of XML/HTML tags",
-			"scope": "punctuation.definition.tag",
-			"settings": {
-				"foreground": "#808080"
 			}
 		},
 		{
@@ -535,7 +554,8 @@
 				"entity.name.function",
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+				"entity.name.operator.custom-literal", // See https://en.cppreference.com/w/cpp/language/user_literal
+				"entity.name.tag",
 			],
 			"settings": {
 				"foreground": "#f7d487"
