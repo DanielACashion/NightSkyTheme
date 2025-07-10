@@ -3,108 +3,80 @@
 	"colors": {
 		"editor.background": "#121012",
 		"editor.foreground": "#eeffff",
-		"activityBar.background": "#121012",
-		"activityBar.foreground": "#eeffff",
-		"activityBar.activeBorder": "#f0ebd7",
+		"activityBar.activeBorder": "#e3c638",
 		"activityBarBadge.background": "#e3c638",
-		"activityBarBadge.foreground": "#121012",
-		"activityErrorBadge.foreground": "#e3c638",
-		"sideBar.background": "#121012",
-		"sideBar.foreground": "#eeffff",
-		"sideBarTitle.foreground": "#eeffff",
-		"sideBarSectionHeader.background": "#121012",
-		"tab.activeBackground": "#121012",
-		"tab.inactiveBackground": "#121012",
-		"tab.unfocusedActiveBackground": "#121012",
-		"tab.unfocusedInactiveBackground": "#121012",
-		"tab.border": "#f0ebd7",
-		"editorGroupHeader.tabsBackground": "#121012"
+		"activityBar.foreground": "#bbbbbb",
+		"activityErrorBadge.foreground": "#FFFFFF",
+		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
 			"name": "Debug Pink",
 			"scope": [
-				"braces",
-				"comment",
-				"constant.character",
-				"constant.escape",
-				"constant.numeric",
 				"constant.other.color",
-				"constant.other.key",
-				"constant.other.symbol",
-				"entity.name.tag",
-				"entity.other.inherited-class",
 				"keyword.control",
-				"keyword.other",
-				"keyword.other.substitution",
-				"keyword.other.template",
-				"keyword.other.unit",
-				"markup.bold markup.italic",
-				"markup.bold markup.italic string",
-				"markup.changed.git_gutter",
-				"markup.deleted.git_gutter",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"markup.italic markup.bold",
-				"markup.italic markup.bold string",
-				"markup.quote markup.bold",
-				"markup.quote markup.bold string",
-				"meta.block variable.other",
-				"meta.class-method.js entity.name.function.js",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"constant.other.color",
 				"meta.tag",
-				"meta.tag.sgml",
-				"meta.use.php",
-				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-				"markup.deleted.git_gutter",
-				"markup.heading",
-				"markup.inserted.git_gutter",
 				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.definition.tag.html",
 				"punctuation.section.embedded",
-				"punctuation.separator.inheritance.php",
-				"source.css support.type.property-name",
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-				"source.less support.type.property-name",
-				"source.postcss support.type.property-name",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"markup.bold markup.italic",
+				"markup.italic markup.bold",
+				"markup.quote markup.bold",
+				"markup.bold markup.italic string",
+				"markup.italic markup.bold string",
+				"markup.quote markup.bold string",
+				"meta.class-method.js entity.name.function.js",
 				"source.sass keyword.control",
+				"keyword.control",
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter",
+				"meta.block variable.other",
+				"support.other.variable",
+				"string.other.link",
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"braces",
+				"variable.function.constructor",
+				"string.other.link.title.markdown",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types",
+				"variable.language",
+				"source.css support.type.property-name",
 				"source.sass support.type.property-name",
 				"source.scss support.type.property-name",
-				"source.sass keyword.control",
-				"string.other.link",
-				"string.other.link.title.markdown",
-				"support.class",
-				"support.constant",
-				"support.other.namespace.php",
-				"support.other.namespace.use.php",
-				"support.other.variable",
-				"support.type",
-				"support.type.sys-types",
-				"variable.function.constructor",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name",
+				"support.type"
 			],
 			"settings": {
 				"foreground": "#f700f7",
 				"fontStyle": "bold strikethrough"
-			}
-		},
-		{
-			"name": "Var Keyword",
-			"scope": [
-				"keyword.var.go"
-			],
-			"settings": {
-				"foreground": "#FFD700" // gold, for example
-			}
-		},
-		{
-			"name": "Const Keyword",
-			"scope": [
-				"keyword.const.go"
-			],
-			"settings": {
-				"foreground": "#00BFFF" // deep sky blue, for example
 			}
 		},
 		{
@@ -117,6 +89,16 @@
 				"foreground": "#C03048"
 			}
 		},
+		
+		{
+			"name": "SkyBlue",
+			"scope": [
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#93bfe7"
+			}
+		},
 		{
 			"name": "EggShell",
 			"scope": [
@@ -126,7 +108,6 @@
 				"constant.numeric.octal",
 				"constant.numeric.binary",
 				"constant.numeric",
-				"constant.numeric.hexadecimal.go",
 				"constant.string",
 				"constant.character",
 				"punctuation",
@@ -137,10 +118,6 @@
 				"keyword.operator",
 				"keyword.other",
 				"keyword.default.zig.fn",
-				"entity.name.namespace",
-				"keyword.other.unit.hexadecimal.go",
-				"keyword.other.unit.octal.go",
-				"keyword.other.unit.binary.go",
 			],
 			"settings": {
 				"foreground": "#f0ebd7",
@@ -148,30 +125,10 @@
 			}
 		},
 		{
-			"name": "SkyBlue",
-			"scope": [
-				"support.function",
-				"constant.language",
-				"constant.character",
-				"constant.escape",
-				"constant.language",
-				"constant.numeric",
-				"constant.other.color",
-				"constant.other.key",
-				"constant.other.symbol",
-				"variable.parameter",
-			],
-			"settings": {
-				"foreground": "#93bfe7"
-			}
-		},
-		{
 			"name": "Constant Var",
 			"scope": [
 				"keyword.default.zig",
-				"keyword.storage.zig",
-				"entity.name.type",
-				"support.type",
+				"keyword.storage.zig"
 			],
 			"settings": {
 				"foreground": "#3a38ff"
@@ -194,7 +151,6 @@
 				"variable.function",
 				"keyword.other.special-method",
 				"entity.name",
-				"entity.name.type.zig",
 			],
 			"settings": {
 				"foreground": "#f7d487"
@@ -309,5 +265,6 @@
 				"fontStyle": "underline"
 			}
 		}
+		
 	]
 }
